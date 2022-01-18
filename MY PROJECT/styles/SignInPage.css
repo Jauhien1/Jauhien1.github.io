@@ -1,0 +1,102 @@
+.SignInPageMainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 200px;
+}
+.SignInPageBox{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 24px;
+}
+.SignInBoxH{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: #232323;
+    font-weight: 600;
+}
+.SignInBoxH2{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4c4c4c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+.SignInBoxEmailContainer, .SignInBoxPasswordContainer{
+    width: 100%;
+    height: 72px;
+    padding: 8px 0;
+}
+.SignInBoxEmailContainer > input, .SignInBoxPasswordContainer > input{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #232323;
+    border: 1px solid #c9c9c9;
+    padding-left: 10px;
+    outline: none;
+}
+.SignInBoxText{
+    width: 100%;
+    height: 68px;
+    padding: 16px 0;
+    margin: 10px auto;
+    text-align: center;
+    color: #4c4c4c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.SignInBoxText > a{
+    text-decoration: underline;
+    font-weight: 600;
+    color: black;
+}
+.SignInBoxButton{
+    width: 100%;
+    height: 56px;
+    color: #f4f4f4;
+    background-color: #232323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.SignInBoxButton:hover{
+background-color: #232323d8;
+}
+.SignInBoxFoter{
+    width: 100%;
+    height: 23px;
+    padding: 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SignInBoxFoter > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232323;
+    font-size: 14px;
+}
+@media (min-width: 1000px){
+    .SignInPageBox {
+    padding: 64px 24px;
+    }
+}
