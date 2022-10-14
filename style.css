@@ -1,0 +1,60 @@
+canvas { 
+    background: #eee;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    padding-top: 0.1px;
+    
+}
+
+#app {
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#app h1 {
+    margin-bottom: 100px;
+    color: rgb(40, 40, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.start_button {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(230, 52, 52);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.start_button:hover {
+    background-color: rgb(255, 0, 51);
+    color: rgb(255, 255, 255);
+    transform: scale(1.03);
+}
+
+.text {
+    margin: 50px;
+    color: rgb(40, 40, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
